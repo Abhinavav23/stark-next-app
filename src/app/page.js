@@ -1,9 +1,15 @@
+import Link from 'next/link'
 import { Product } from './components/Product'
 import styles from './page.module.css'
 
 const Header = () => {
   return (
-    <h1>Stark App</h1>
+    <header>
+      <h1>Stark App</h1>
+      <Link href="/about">About</Link>
+      <Link href="/profile">Profile</Link>
+      <Link href="/profile/address">Address</Link>
+    </header>
   )
 }
 

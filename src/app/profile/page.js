@@ -1,5 +1,12 @@
-const Profile = () => {
-    return (<h2>My Profile</h2>)
-}
+import { Profiles } from "./Profiles";
 
-export default Profile
+const Profile = () => {
+  return (
+    <>
+      <h2>Profiles</h2>
+      <Profiles />
+    </>
+  );
+};
+
+export default Profile;
